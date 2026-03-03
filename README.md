@@ -66,3 +66,25 @@ Fitur ini dibuat menggunakan useState untuk mengelola state, serta event handler
 
 8. Konsep Desain
    Website menggunakan tema dasar putih dengan aksen hitam dan abu-abu. Desain dibuat minimalis dengan border tipis, shadow halus, dan sudut membulat. Konsep ini memberikan kesan profesional, bersih, dan modern.
+
+
+   ## Hasil Tampilan
+Berikut adalah hasil implementasi soal 3:
+
+![Hasil Tampilan](./Paket.png)
+
+Berikut penjelasan berdasarkan soal yang diberikan:
+
+Pembuatan Menu Navigasi dan Halaman Baru
+Dipahami cara membuat menu navigasi pada website menggunakan Next.js. Setiap menu terhubung ke halaman baru yang dibuat melalui struktur folder pada App Router. Dengan membuat folder dan file page.tsx baru di dalam folder app, otomatis terbentuk route baru yang bisa diakses melalui navbar.
+
+Navigasi Tanpa Reload
+Menu menggunakan komponen Link dari Next.js sehingga perpindahan halaman berjalan secara client-side tanpa memuat ulang seluruh halaman. Ini membuat website lebih cepat dan responsif.
+
+Struktur Routing Berbasis Folder
+Dipahami bahwa dalam Next.js App Router, struktur folder menentukan alamat URL. Misalnya folder app/paket/page.tsx akan menghasilkan route /paket.
+
+Konsistensi Tampilan Antar Halaman
+Setiap halaman baru yang ditambahkan tetap mengikuti layout utama melalui layout.tsx. Dengan demikian, navbar dan struktur dasar website tetap konsisten di semua halaman.
+
+Kesimpulannya, dari soal tersebut dipelajari cara menambahkan menu navigasi yang terhubung ke halaman baru serta memahami konsep routing dan struktur project pada Next.js.

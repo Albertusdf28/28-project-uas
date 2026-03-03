@@ -12,6 +12,7 @@ export default function Navbar() {
     { name: "Tentang", path: "/tentang" },
     { name: "Galeri", path: "/galeri" },
     { name: "Kontak", path: "/kontak" },
+    { name: "Paket Trip", path: "/paket" }, // menu baru
   ]
 
   return (
